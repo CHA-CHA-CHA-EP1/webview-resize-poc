@@ -69,11 +69,19 @@ export default function Home() {
               placeholder="ระบุจำนวน"
             />
           </div>
-          <button 
-            className="bg-blue-500 text-white text-xs font-medium py-2 px-4 rounded"
-          >
-            ชำระเงิน
-          </button>
+          <div className="flex space-x-2">
+            <a 
+              href="/test"
+              className="bg-gray-200 text-gray-700 text-xs font-medium py-2 px-4 rounded"
+            >
+              ทดสอบหน้าใหม่
+            </a>
+            <button 
+              className="bg-blue-500 text-white text-xs font-medium py-2 px-4 rounded"
+            >
+              ชำระเงิน
+            </button>
+          </div>
         </div>
       </div>
     </div>
