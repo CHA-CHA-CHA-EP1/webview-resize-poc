@@ -2,6 +2,7 @@
 
 import { useWindowSize } from "../components/hooks/useWindowSize";
 import { useState, useEffect, useRef } from "react";
+import Link from 'next/link';
 
 export default function TestPage() {
     const size = useWindowSize();
@@ -87,7 +88,7 @@ export default function TestPage() {
                 </p>
                 
                 <div className="mt-4">
-                    <a href="/" className="text-xs text-blue-500 underline">กลับไปหน้าหลัก</a>
+                    <Link href="/" className="text-xs text-blue-500 underline">กลับไปหน้าหลัก</Link>
                 </div>
             </div>
             
